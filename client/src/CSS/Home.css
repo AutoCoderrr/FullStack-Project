@@ -1,0 +1,28 @@
+/* Styling for the Home component */
+
+/* Adjust spacing between hero image and content */
+.container {
+    display: flex;
+    justify-content: space-between; /* Align items in a row with space between */
+    align-items: center; /* Align items vertically in the container */
+    
+  }
+  
+  .hero-image img {
+    max-width: 100%; /* Ensure image width is responsive */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Add margin to the right of the image */
+  }
+  
+  .hero-content {
+    flex: 1; /* Allow content to expand to fill remaining space */
+  }
+  
+  .btn-group {
+    margin-top: 20px; /* Add margin at the top of the button group */
+  }
+  
+  .btn-group a + a {
+    margin-left: 10px; /* Add margin between adjacent buttons */
+  }
+  

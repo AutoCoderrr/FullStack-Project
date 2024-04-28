@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color-scheme: light dark;
+
+}
+
+
+
+
+/* Styling for main section */
+main {
+  padding: 50px 0; /* Add padding to the main section */
+}
+
+
+/* css for statics */
+/* Common styles for components */
+
+.content-about{
+  color: black;
+}

@@ -1,0 +1,46 @@
+.section {
+    padding: 40px 0;
+    background-color: #f8f8f8; /* Background color for the section */
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .section-content {
+    display: flex; /* Use flexbox to align items */
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+    align-items: center; /* Center items vertically */
+    margin-left: 50px;
+    gap: 40px;
+  }
+  
+  .div1 {
+    flex: 1; /* Each div occupies equal space */
+    padding: 30px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for a card-like effect */
+    transition: transform 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .div1:hover {
+    transform: translateY(-5px); /* Move up slightly on hover */
+  }
+  
+  .div1 h2 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .div1 p {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+  }
+  
